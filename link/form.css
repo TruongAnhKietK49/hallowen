@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 80vh;
+    background: url(/img/background-3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: abc;
+    src: url(/font/Buffied-GlqZ.ttf);
+}
+.container {
+    margin: 100px;
+}
+.row {
+    color: white;
+    width: 100%;
+}
+.row input {
+    border-radius: 5px;
+    border: 2px solid rgb(49, 4, 4);
+}
+.row .text {
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid aqua;
+}
+.row .pum {
+    width: 100px;
+    margin: -150px 0 0 0;
+}
+.row .home {
+    width: 200px;
+    margin: 0 0 0 200px;
+}
+.col-3 {
+    background-color: rgb(250, 172, 78, 0.76);
+    height: 500px;
+    font-family: abc;
+    border-radius: 5px;
+    border: 4px solid black;
+    text-shadow: 2px 2px 5px red;
+}
+.row h3 {
+    font-size: 50px;
+    text-align: center;
+}
+.row li {
+    font-size: 30px;
+}
+.row .bat {
+    width: 100px;
+}
